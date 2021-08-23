@@ -1,0 +1,95 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+.topIcon:hover{
+  color:#222;
+}
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.topListItem:hover{
+  color:rgb(53, 52, 52);
+}
+
+.topSearchIcon {
+  font-size: 23px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+@media screen and (max-width:700px) {
+
+ .topIcon{
+   display: none;
+ }
+ .topSearchIcon{
+   display: none;
+ }
+ .abc{
+   display: none;
+ }
+ .topListItem {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.topLeft{
+  flex:0;
+}
+.topCenter{
+flex:9;
+margin-left: 15px;
+}
+.topRight{
+flex:3;
+margin-right: 15px;
+justify-content:flex-end;
+}
+
+}

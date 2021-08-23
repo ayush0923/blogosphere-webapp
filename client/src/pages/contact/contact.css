@@ -1,0 +1,45 @@
+.aboutimage{
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+.abouttile{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+.abouth1{
+    margin-top: 50px;
+    font-size: 60px;
+}
+.abouth2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.aboutcontact{
+    margin-top: 40px;
+    
+}
+.topIcon2{
+    font-size: 20px;
+    color: #444;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:700px) {
+
+    .abouth1{
+        text-align: center;
+    }
+    .abouth2{
+        text-align: center;
+    }
+    .topIcon2{
+        text-align: center;
+       margin-right: 20px;
+    }
+}
